@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deepesh Yadav — Developer Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       CUSTOM CURSOR
+  ═══════════════════════════════════════ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Background gradient blob -->
+  <div class="hero-bg"></div>
+
+
+  <!-- ═══════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════ -->
+  <nav>
+    <div class="nav-logo">DY<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Available for Opportunities</div>
+
+    <h1 class="hero-name">
+      <span class="first">Deepesh</span>
+      <span class="last">Yadav</span>
+    </h1>
+
+    <p class="hero-sub">
+      Creative <span>Full Stack Developer</span> &amp; Data Analytics Engineer
+    </p>
+
+    <p class="hero-desc">
+      Building intelligent systems at the intersection of data, AI, and web technology.
+      Currently pursuing B.Tech CSE at NIIT University, Neemrana.
+    </p>
+
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects →</a>
+      <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       SCROLLING TECH TICKER
+  ═══════════════════════════════════════ -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span class="accent">Python</span><span>·</span>
+      <span>React.js</span><span>·</span>
+      <span class="accent">Power BI</span><span>·</span>
+      <span>FastAPI</span><span>·</span>
+      <span class="accent">PostgreSQL</span><span>·</span>
+      <span>ARIMA Forecasting</span><span>·</span>
+      <span class="accent">Data Analytics</span><span>·</span>
+      <span>MongoDB</span><span>·</span>
+      <span class="accent">Streamlit</span><span>·</span>
+      <span>Node.js</span><span>·</span>
+      <!-- duplicate for seamless loop -->
+      <span class="accent">Python</span><span>·</span>
+      <span>React.js</span><span>·</span>
+      <span class="accent">Power BI</span><span>·</span>
+      <span>FastAPI</span><span>·</span>
+      <span class="accent">PostgreSQL</span><span>·</span>
+      <span>ARIMA Forecasting</span><span>·</span>
+      <span class="accent">Data Analytics</span><span>·</span>
+      <span>MongoDB</span><span>·</span>
+      <span class="accent">Streamlit</span><span>·</span>
+      <span>Node.js</span><span>·</span>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════ -->
+  <section id="about">
+    <div class="about-grid">
+
+      <!-- Text side -->
+      <div class="fade-up">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title">I build things that think.</h2>
+        <div class="about-text">
+          <p>
+            I'm a Computer Science Engineering student at NIIT University with a passion
+            for building intelligent, data-driven applications that solve real problems.
+          </p>
+          <p>
+            From crafting interactive dashboards that decode IPL match patterns to training
+            ARIMA models that predict stock market movements — I love the full stack of
+            problem-solving, from raw data to polished UI.
+          </p>
+          <p>
+            I bring together analytical thinking and creative engineering to build products
+            that are both smart and beautiful.
+          </p>
+        </div>
+      </div>
+
+      <!-- Stats side -->
+      <div class="about-stats fade-up">
+        <div class="stat-box">
+          <div class="stat-num">3<span>+</span></div>
+          <div class="stat-label">Projects Shipped</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">200<span>K</span></div>
+          <div class="stat-label">Records Analyzed</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">4<span>+</span></div>
+          <div class="stat-label">Tech Stacks</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Leadership Roles</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       SKILLS
+  ═══════════════════════════════════════ -->
+  <div class="skills-section" id="skills">
+    <div class="skills-inner">
+      <div class="section-label fade-up">Technical Skills</div>
+      <h2 class="section-title fade-up">My Tech Arsenal</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-category fade-up">
+          <div class="skill-cat-label">Core Languages</div>
+          <div class="skill-cat-title">Programming</div>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up">
+          <div class="skill-cat-label">Insight &amp; Visualization</div>
+          <div class="skill-cat-title">Data Analytics</div>
+          <div class="skill-tags">
+            <span class="tag green">NumPy</span>
+            <span class="tag green">Pandas</span>
+            <span class="tag green">Matplotlib</span>
+            <span class="tag green">Seaborn</span>
+            <span class="tag green">Power BI</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up">
+          <div class="skill-cat-label">Web &amp; APIs</div>
+          <div class="skill-cat-title">Full Stack Dev</div>
+          <div class="skill-tags">
+            <span class="tag pink">React.js</span>
+            <span class="tag pink">FastAPI</span>
+            <span class="tag pink">Node.js</span>
+            <span class="tag pink">HTML</span>
+            <span class="tag pink">CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up">
+          <div class="skill-cat-label">Storage &amp; Query</div>
+          <div class="skill-cat-title">Databases</div>
+          <div class="skill-tags">
+            <span class="tag neutral">MongoDB</span>
+            <span class="tag neutral">MySQL</span>
+            <span class="tag neutral">PostgreSQL</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       EXPERIENCE
+  ═══════════════════════════════════════ -->
+  <section id="experience">
+    <div class="section-label fade-up">Work Experience</div>
+    <h2 class="section-title fade-up">Where I've Made an Impact</h2>
+
+    <div class="exp-card fade-up">
+      <div class="exp-header">
+        <div>
+          <div class="exp-role">Data Analytics Intern</div>
+          <div class="exp-company">Flyjone · Remote</div>
+        </div>
+        <div class="exp-date">Jun 2025 – Aug 2025</div>
+      </div>
+      <ul class="exp-points">
+        <li>
+          Developed a browser-based SQL practice platform with a PostgreSQL sandbox,
+          enabling users to execute queries and receive real-time results.
+        </li>
+        <li>
+          Built structured SQL assignment workflows to support guided learning
+          experiences for end users.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       PROJECTS
+  ═══════════════════════════════════════ -->
+  <section id="projects">
+    <div class="section-label fade-up">Projects</div>
+    <h2 class="section-title fade-up">Things I've Built</h2>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card fade-up">
+        <div class="project-num">01</div>
+        <div class="project-stack">
+          <span class="tag pink">Power BI</span>
+          <span class="tag pink">Power Query</span>
+        </div>
+        <div class="project-name">IPL Match Analytics Dashboard</div>
+        <div class="project-desc">
+          Analyzed 200K+ IPL ball-by-ball delivery records. Performed data cleaning and
+          transformation using Power Query, then built an interactive dashboard
+          visualizing player performance, scoring trends, strike rates, and winning patterns.
+        </div>
+        <div class="project-footer">
+          <div class="project-year">2025</div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card fade-up">
+        <div class="project-num">02</div>
+        <div class="project-stack">
+          <span class="tag green">Python</span>
+          <span class="tag green">ARIMA</span>
+          <span class="tag green">Streamlit</span>
+          <span class="tag green">Plotly</span>
+        </div>
+        <div class="project-name">AI Financial Forecasting Dashboard</div>
+        <div class="project-desc">
+          Built an AI-based financial forecasting system using ARIMA time-series modeling
+          to predict stock price trends. Features an interactive Streamlit dashboard with
+          Plotly visualizations, automated BUY/SELL signals, and historical market data analysis.
+        </div>
+        <div class="project-footer">
+          <div class="project-year">2025</div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card fade-up">
+        <div class="project-num">03</div>
+        <div class="project-stack">
+          <span class="tag">React.js</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">PostgreSQL</span>
+        </div>
+        <div class="project-name">CipherSQL Studio</div>
+        <div class="project-desc">
+          A browser-based SQL learning platform with a live PostgreSQL sandbox.
+          Features AI-powered hint generation, secure query validation that prevents
+          destructive operations, and structured assignments via an interactive
+          React &amp; Node.js dashboard.
+        </div>
+        <div class="project-footer">
+          <div class="project-year">2025</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       CERTIFICATIONS & LEADERSHIP
+  ═══════════════════════════════════════ -->
+  <section id="certifications">
+    <div class="section-label fade-up">Recognition</div>
+    <h2 class="section-title fade-up">Certifications &amp; Roles</h2>
+
+    <div class="cert-grid fade-up">
+      <div class="cert-card">
+        <div class="cert-icon">🎓</div>
+        <div>
+          <div class="cert-title">Data Science Course</div>
+          <div class="cert-issuer">Code With Harry · 2024</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">📊</div>
+        <div>
+          <div class="cert-title">B.Tech — CSE</div>
+          <div class="cert-issuer">NIIT University, Neemrana</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label fade-up" style="margin-top: 3rem;">Leadership</div>
+    <div class="positions-list fade-up">
+      <div class="position-item">
+        <div>
+          <div class="position-role">Core Team Member — Cultural Fest Ingenuity</div>
+          <div class="position-org">NIIT University</div>
+        </div>
+        <div class="position-badge">Leadership</div>
+      </div>
+      <div class="position-item">
+        <div>
+          <div class="position-role">Capture Director — Hult Prize</div>
+          <div class="position-org">NIIT University</div>
+        </div>
+        <div class="position-badge">Director</div>
+      </div>
+      <div class="position-item">
+        <div>
+          <div class="position-role">Coordinator — Yoga Club</div>
+          <div class="position-org">NIIT University</div>
+        </div>
+        <div class="position-badge">Coordinator</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       CONTACT
+  ═══════════════════════════════════════ -->
+  <div class="contact-section" id="contact">
+    <div class="contact-inner">
+      <div class="section-label fade-up">Let's Connect</div>
+      <div class="contact-grid">
+
+        <div class="fade-up">
+          <h2 class="contact-big">
+            Got an idea?<br />
+            <em>Let's build</em><br />
+            it together.
+          </h2>
+        </div>
+
+        <div class="contact-links fade-up">
+          <a href="mailto:deepeshyadav4567@gmail.com" class="contact-link">
+            <div class="contact-link-icon">✉</div>
+            <div>
+              <span class="contact-link-label">Email</span>
+              <span class="contact-link-val">deepeshyadav4567@gmail.com</span>
+            </div>
+          </a>
+          <a href="http://linkedin.com/in/deepesh-yadav-204a622b1" target="_blank" class="contact-link">
+            <div class="contact-link-icon">in</div>
+            <div>
+              <span class="contact-link-label">LinkedIn</span>
+              <span class="contact-link-val">deepesh-yadav-204a622b1</span>
+            </div>
+          </a>
+          <a href="http://github.com/deepeshyadav17" target="_blank" class="contact-link">
+            <div class="contact-link-icon">⌥</div>
+            <div>
+              <span class="contact-link-label">GitHub</span>
+              <span class="contact-link-val">deepeshyadav17</span>
+            </div>
+          </a>
+          <a href="tel:+917027265065" class="contact-link">
+            <div class="contact-link-icon">☏</div>
+            <div>
+              <span class="contact-link-label">Phone</span>
+              <span class="contact-link-val">+91 70272 65065</span>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer>
+    <div class="footer-copy">© 2025 Deepesh Yadav. Built with code &amp; intention.</div>
+    <div class="footer-name">DY.</div>
+  </footer>
+
+
+  <!-- JavaScript (loaded last so DOM is ready) -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
